@@ -32,6 +32,7 @@ header {
     background-color: var(--dark);
     justify-content: space-between;
     min-width: fit-content;
+    border-bottom: solid;
 }
 
 header a,
@@ -135,6 +136,7 @@ footer span {
     padding-left: var(--pad20);
     color: var(--white);
 }
+
 
 #refactor-img {
     background-image: url("../assets/images/refactor.jpg");
