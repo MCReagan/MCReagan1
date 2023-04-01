@@ -16,6 +16,7 @@
 }
 
 body {
+    display: block;
     background-color: var(--lighter);
     margin: 0;
     flex-direction: column;
@@ -76,9 +77,16 @@ aside {
 section {}
 
 footer {
+    display: flex;
     background-color: var(--dark);
     min-height: 100px;
-    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer span {
+    margin: 40px;
+    font-size: var(--font20);
 }
 
 .my-img {
@@ -93,5 +101,7 @@ footer {
     padding-left: var(--pad20);
     color: var(--white);
 }
+
+
 
 #about-me {}
