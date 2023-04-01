@@ -66,7 +66,6 @@ main {
     display: flex;
 }
 
-/* Work from here down for now - go back to header after structure complete */
 aside {
     background-color: var(--neutral);
     max-width: 30vw;
@@ -74,7 +73,9 @@ aside {
     min-height: 100vw;
 }
 
-section {}
+section {
+
+}
 
 footer {
     display: flex;
@@ -103,5 +104,3 @@ footer span {
 }
 
 
-
-#about-me {}
