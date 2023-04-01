@@ -29,10 +29,12 @@ header {
     padding: var(--pad20);
     background-color: var(--dark);
     justify-content: space-between;
-
+    min-width: fit-content;
 }
 
-header a {
+
+header a,
+footer a {
     color: var(--white);
     list-style-type: none;
     text-decoration: none;
@@ -71,13 +73,12 @@ aside {
     min-height: 100vw;
 }
 
-section {
-    max-width: 70vw;
-    min-width: 70vw;
-}
+section {}
 
 footer {
     background-color: var(--dark);
+    min-height: 100px;
+    width: 100%;
 }
 
 .my-img {
@@ -93,6 +94,4 @@ footer {
     color: var(--white);
 }
 
-#about-me {
-
-}
+#about-me {}
