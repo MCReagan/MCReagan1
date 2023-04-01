@@ -154,3 +154,7 @@ a img {
 a:hover {
     color: aqua;
 }
+
+@media screen and (max-width: 780px) {
+    
+}
