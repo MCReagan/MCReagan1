@@ -6,9 +6,12 @@
     --darker: #323031;
     --white: #fff;
     --font40: 40px;
+    --font25: 25px;
     --font20: 20px;
     --pad20: 20px;
     --mar20: 20px;
+    --bor20: 20px;
+    --mar30: 30px;
 }
 
 * {
@@ -40,7 +43,7 @@ footer a {
 
 header nav {
     display: flex;
-    font-size: var(--font20);
+    font-size: var(--font25);
     align-items: end;
 }
 
@@ -68,6 +71,38 @@ aside {
     max-width: 30vw;
     min-width: 30vw;
     min-height: 100vw;
+    border-width: 20px 10px 20px 20px;
+    border-style: solid;
+    border-color: var(--darker);
+}
+
+section {
+    width: 100%;
+    border-width: 20px 20px 20px 10px;
+    border-style: solid;
+    border-color: var(--darker);
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: var(--font25);
+    margin: 30px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    font-size: var(--font25);
+    margin: 30px;
+    padding: 5px;
+    border: outset 10px var(--darker);
+    color: var(--white);
+    background-color: var(--darker);
+}
+
+p {
+    margin-right: 4%;
 }
 
 footer {
@@ -81,18 +116,6 @@ footer {
 footer span {
     margin: 40px;
     font-size: var(--font20);
-}
-
-section {
-    width: 100%;
-}
-
-section h3,
-aside h3 {
-    display: flex;
-    justify-content: center;
-    font-size: var(--font20);
-    margin: 30px;
 }
 
 .my-img {
@@ -115,10 +138,11 @@ aside h3 {
 
 #refactor-img {
     background-image: url("../assets/images/refactor.jpg");
+    background-repeat: no-repeat;
     display: block;
-    background-size: cover;
-    max-width: 98%;
-    min-height: 30%;
+    background-size: contain;
+    width: 100%;
+    min-height: 33%;
 }
 
 a:hover {
