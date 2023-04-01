@@ -51,7 +51,7 @@ footer a {
 
 header nav {
     display: flex;
-    font-size: var(--font25);
+    font-size: 2.5vw;
     justify-content: flex-end;
     align-items: end;
 }
@@ -62,11 +62,11 @@ header span {
 
 h1 {
     display: flex;
-    font-size: var(--font40);
+    font-size: 5vw;
 }
 
 h2 {
-    /* padding-top: var(--pad20); */
+    font-size: 2vw;
 }
 
 main {
