@@ -102,12 +102,13 @@ section {
     margin-right: auto;
 }
 
-.refactor-img {
+#refactor-img {
     background-image: url("../assets/images/refactor.jpg");
     display: block;
-    background-size: cover;
-    min-width: 98%;
-    min-height: 20%;
+    background-size:cover;
+    max-width: 98%;
+    
+    min-height: 30%;
     margin-right: auto;
     
 }
