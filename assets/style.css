@@ -4,30 +4,72 @@
     --lighter: #C1BDB3;
     --dark: #3D3B3C;
     --darker: #323031;
+    --white: #fff;
+    --font40: 40px;
+    --font20: 20px;
+    --pad20: 20px;
+    --mar20: 20px;
 }
 
 * {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: var(--neutral);
+    background-color: var(--lighter);
+    margin: 0;
 }
+
 header a {
-    color: #fff;
+    color: var(--white);
+    list-style-type: none;
+    text-decoration: none;
 }
 
 header {
     display: flex;
+    color: var(--white);
+    padding: var(--pad20);
+    background-color: var(--dark);
     justify-content: space-between;
-    background-color: var(--lighter);
 }
 
 h1 {
-    font-size: 30px;
+    font-size: var(--font40);
+    position:relative;
+    top: -30px;
 }
 
-nav ul {
-    display: flex;
-    list-style-type: none;
+h2 {
+    position: absolute;
+    padding-top: var(--pad20);
 }
+
+header nav {
+    display: flex;
+    font-size: var(--font20);
+    align-items: end;
+    flex-shrink: ;
+}
+
+header span {
+    margin: 0 var(--mar20);
+}
+
+/* Work from here down for now - go back to header after structure complete */
+aside {
+    padding-left: var(--pad20);
+    
+    color: black;
+}
+
+section {
+    padding-left: var(--pad20);
+    color: var(--white);
+}
+
+
+#about-me p{
+   color: var(--darker);
+}
+
