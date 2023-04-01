@@ -90,7 +90,7 @@ h3 {
     display: flex;
     justify-content: center;
     font-size: var(--font25);
-    margin: 30px;
+    margin: var(--mar30);
 }
 
 h4 {
@@ -143,7 +143,8 @@ footer nav {
 }
 
 a img {
-    max-height: var(--icon60);
+    /* max-height: var(--icon60); */
+    height: 5vw;
 }
 
 #refactor-img {
