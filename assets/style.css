@@ -34,7 +34,6 @@ body {
 }
 
 header {
-    display: flex;
     color: var(--white);
     padding: var(--pad20);
     background-color: var(--dark);
@@ -53,6 +52,7 @@ footer a {
 header nav {
     display: flex;
     font-size: var(--font25);
+    justify-content: flex-end;
     align-items: end;
 }
 
