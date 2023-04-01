@@ -108,11 +108,6 @@ h4 {
     background-color: var(--darker);
 }
 
-p {
-    margin-right: 4%;
-    padding-left: var(--pad20);
-}
-
 footer {
     display: flex;
     background-color: var(--dark);
@@ -121,16 +116,16 @@ footer {
 }
 
 footer span {
-    margin: var(--mar30);
+    margin: 2vw 5vw;
 }
 
 footer nav {
     display: flex;
-    align-items: center;
 }
 
 a img {
     height: 5vw;
+    max-height: 100px;
 }
 
 .my-img {
