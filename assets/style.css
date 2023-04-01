@@ -12,6 +12,7 @@
     --mar20: 20px;
     --bor20: 20px;
     --mar30: 30px;
+    --icon60: 60px;
 }
 
 * {
@@ -112,11 +113,11 @@ footer {
     min-height: 100px;
     justify-content: space-evenly;
     align-items: center;
+    border-top: solid var(--white);
 }
 
 footer span {
     margin: 40px;
-    font-size: var(--font20);
 }
 
 .my-img {
@@ -137,6 +138,9 @@ footer span {
     color: var(--white);
 }
 
+a img {
+    max-height: var(--icon60);
+}
 
 #refactor-img {
     background-image: url("../assets/images/refactor.jpg");
