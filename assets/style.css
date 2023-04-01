@@ -18,6 +18,18 @@
 body {
     background-color: var(--lighter);
     margin: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+header {
+    display: flex;
+    color: var(--white);
+    padding: var(--pad20);
+    background-color: var(--dark);
+    justify-content: space-between;
+
 }
 
 header a {
@@ -26,17 +38,19 @@ header a {
     text-decoration: none;
 }
 
-header {
+header nav {
     display: flex;
-    color: var(--white);
-    padding: var(--pad20);
-    background-color: var(--dark);
-    justify-content: space-between;
+    font-size: var(--font20);
+    align-items: end;
+}
+
+header span {
+    margin: 0 var(--mar20);
 }
 
 h1 {
     font-size: var(--font40);
-    position:relative;
+    position: relative;
     top: -30px;
 }
 
@@ -45,31 +59,32 @@ h2 {
     padding-top: var(--pad20);
 }
 
-header nav {
+main {
     display: flex;
-    font-size: var(--font20);
-    align-items: end;
-    flex-shrink: ;
-}
-
-header span {
-    margin: 0 var(--mar20);
 }
 
 /* Work from here down for now - go back to header after structure complete */
 aside {
-    padding-left: var(--pad20);
-    
-    color: black;
+    background-color: var(--neutral);
+    max-width: 30vw;
+    min-width: 30vw;
+    min-height: 100vw;
 }
 
 section {
+    max-width: 70vw;
+    min-width: 70vw;
+}
+
+footer {
+    background-color: var(--dark);
+}
+
+.section {
     padding-left: var(--pad20);
     color: var(--white);
 }
 
 
-#about-me p{
-   color: var(--darker);
-}
 
+#about-me {}
