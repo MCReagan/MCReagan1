@@ -89,6 +89,10 @@ section {
     width: 100%;
 }
 
+section p {
+    justify-content: center;
+}
+
 .my-img {
     background-image: url("../assets/images/headshot.png");
     min-height: 200px;
@@ -105,12 +109,9 @@ section {
 #refactor-img {
     background-image: url("../assets/images/refactor.jpg");
     display: block;
-    background-size:cover;
+    background-size: cover;
     max-width: 98%;
-    
     min-height: 30%;
-    margin-right: auto;
-    
 }
 
 .section {
@@ -118,4 +119,6 @@ section {
     color: var(--white);
 }
 
-
+a:hover {
+    color: aqua;
+}
