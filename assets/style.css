@@ -51,7 +51,7 @@ footer a {
 
 header nav {
     display: flex;
-    font-size: 2.5vw;
+    font-size: 2vw;
     justify-content: flex-end;
     align-items: end;
 }
@@ -62,11 +62,11 @@ header span {
 
 h1 {
     display: flex;
-    font-size: 5vw;
+    font-size: 3vw;
 }
 
 h2 {
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 
 main {
@@ -127,6 +127,7 @@ section div{
     display: flex;
     justify-content: center;
 }
+
 a img {
     height: 5vw;
     max-height: 100px;
