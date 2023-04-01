@@ -82,12 +82,10 @@ footer {
 
 .my-img {
     background-image: url("../assets/images/headshot.png");
-    min-height: 10vw;
-    min-width: 10vw;
-    background-repeat: no-repeat;
-    position: absolute;
+    min-height: 100px;
+    min-width: 100px;
     background-size: cover;
-    left: 25vw;
+    position: static;
 }
 
 .section {
