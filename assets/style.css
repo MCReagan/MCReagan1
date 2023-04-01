@@ -31,7 +31,6 @@ header {
     min-width: fit-content;
 }
 
-
 header a,
 footer a {
     color: var(--white);
@@ -64,7 +63,6 @@ main {
     display: flex;
 }
 
-
 aside {
     background-color: var(--neutral);
     max-width: 30vw;
@@ -89,8 +87,12 @@ section {
     width: 100%;
 }
 
-section p {
+section h3,
+aside h3 {
+    display: flex;
     justify-content: center;
+    font-size: var(--font20);
+    margin: 30px;
 }
 
 .my-img {
@@ -106,17 +108,17 @@ section p {
     margin-right: auto;
 }
 
+.section {
+    padding-left: var(--pad20);
+    color: var(--white);
+}
+
 #refactor-img {
     background-image: url("../assets/images/refactor.jpg");
     display: block;
     background-size: cover;
     max-width: 98%;
     min-height: 30%;
-}
-
-.section {
-    padding-left: var(--pad20);
-    color: var(--white);
 }
 
 a:hover {
