@@ -18,6 +18,11 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal
 }
 
 body {
@@ -25,6 +30,7 @@ body {
     background-color: var(--lighter);
     margin: 0;
     flex-direction: column;
+    width: 100%;
 }
 
 header {
@@ -33,8 +39,8 @@ header {
     padding: var(--pad20);
     background-color: var(--dark);
     justify-content: space-between;
-    min-width: fit-content;
     border-bottom: solid;
+    flex-direction: column;
 }
 
 header a,
@@ -55,14 +61,12 @@ header span {
 }
 
 h1 {
+    display: flex;
     font-size: var(--font40);
-    position: relative;
-    top: -30px;
 }
 
 h2 {
-    position: absolute;
-    padding-top: var(--pad20);
+    /* padding-top: var(--pad20); */
 }
 
 main {
@@ -125,6 +129,10 @@ footer nav {
     align-items: center;
 }
 
+a img {
+    height: 5vw;
+}
+
 .my-img {
     background-image: url("../assets/images/headshot.png");
     height: 25vw;
@@ -140,11 +148,6 @@ footer nav {
 
 .section {
     color: var(--white);
-}
-
-a img {
-    /* max-height: var(--icon60); */
-    height: 5vw;
 }
 
 #refactor-img {
