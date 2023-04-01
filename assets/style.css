@@ -83,6 +83,7 @@ aside {
     border-color: var(--darker);
 }
 
+
 section {
     width: 100%;
     border-width: 20px 20px 20px 10px;
@@ -115,7 +116,7 @@ footer {
     border-top: solid var(--white);
 }
 
-footer span {
+footer div {
     margin: 2vw 5vw;
 }
 
@@ -123,9 +124,13 @@ footer nav {
     display: flex;
 }
 
-section div{
+section div {
     display: flex;
     justify-content: center;
+}
+
+aside div {
+    
 }
 
 a img {
@@ -144,6 +149,11 @@ a img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.story {
+    display: block;
+    margin: 6%;
 }
 
 .section {
