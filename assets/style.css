@@ -133,6 +133,11 @@ a img {
     max-height: 100px;
 }
 
+h6 {
+    margin: 10%;
+    font-size: 1vw;
+}
+
 .my-img {
     background-image: url("../assets/images/headshot.png");
     height: 25vw;
@@ -176,7 +181,7 @@ a img {
     bottom: 5vw;
     right: 5vw;
     width: 10vw;
-    height: 5vw;
+    height: 3vw;
 }
 
 #refactor {
