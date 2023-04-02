@@ -39,7 +39,6 @@ header {
     background-color: var(--dark);
     justify-content: space-between;
     border-bottom: solid;
-    flex-direction: column;
 }
 
 header a,
