@@ -84,7 +84,7 @@ aside {
 
 
 section {
-    width: 100%;
+    width: 70vw;
     border-width: 20px 20px 20px 10px;
     border-style: solid;
     border-color: var(--darker);
@@ -157,12 +157,13 @@ a img {
 
 /* temporary until future projects */
 .image-placeholder {
-    background-color: #eee;
-    display: flex;
-    flex-wrap: nowrap;
-    height: 10vw;
-    margin: 5px;
-    width: 10vw;
+    background-color: black;
+    height: 25vw;
+    width: 25vw;
+}
+
+#project1 {
+ 
 }
 
 
