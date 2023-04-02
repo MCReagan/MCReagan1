@@ -129,10 +129,6 @@ section div {
     justify-content: center;
 }
 
-aside div {
-    
-}
-
 a img {
     height: 5vw;
     max-height: 100px;
@@ -159,6 +155,17 @@ a img {
 .section {
     color: var(--white);
 }
+
+/* temporary until future projects */
+.image-placeholder {
+    background-color: #eee;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 10vw;
+    margin: 5px;
+    width: 10vw;
+}
+
 
 #refactor-img {
     background-image: url("../assets/images/refactor.jpg");
