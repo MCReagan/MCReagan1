@@ -165,6 +165,7 @@ h6 {
     height: 20vw;
     width: 42.5%;
     margin: 0 2.5% 0 2.5%;
+    opacity: 50%;
 }
 
 .image-placeholder2 {
@@ -172,6 +173,7 @@ h6 {
     height: 20vw;
     width: 42.5%;
     margin: 0 2.5% 0 2.5%;
+    opacity: 50%;
 }
 
 .text-block {
