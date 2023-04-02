@@ -156,16 +156,19 @@ a img {
 }
 
 /* temporary until future projects */
-.image-placeholder {
-    background-color: black;
-    height: 25vw;
-    width: 25vw;
+.image-placeholder1 {
+    background-color: var(--dark);
+    height: 20vw;
+    width: 42.5%;
+    margin: 0 2.5% 0 2.5%;
 }
 
-#project1 {
- 
+.image-placeholder2 {
+    background-color: var(--dark);
+    height: 20vw;
+    width: 42.5%;
+    margin: 0 2.5% 0 2.5%;
 }
-
 
 #refactor-img {
     background-image: url("../assets/images/refactor.jpg");
