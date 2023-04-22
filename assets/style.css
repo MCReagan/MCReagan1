@@ -164,13 +164,13 @@ h6 {
 
 .text-block {
     position: absolute;
-    background-color:var(--dark);
+    background-color: var(--dark);
     color: var(--white);
     bottom: 5vw;
     right: 5vw;
     width: 10vw;
     height: 3vw;
-    background: rgba(50,48,49,0.5);
+    background: rgba(50, 48, 49, 0.5);
 }
 
 #projects {
@@ -185,11 +185,23 @@ h6 {
 }
 
 #refactor-img {
-    background-image: url("../assets/images/refactor.jpg");
+    background-image: url("./images/mcreagan.github.io_Calorie-Counter_\ \(4\).png");
+    margin-bottom: 50px;
     background-repeat: no-repeat;
     background-size: contain;
     width: 90%;
     min-height: 30vw;
+}
+
+#refactor-img1 {
+    background-image: url("./images/refactor.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20vw;
+    width: 42.5%;
+    margin: 0 2.5% 0 2.5%;
+    opacity: 50%;
+
 }
 
 a:hover {
