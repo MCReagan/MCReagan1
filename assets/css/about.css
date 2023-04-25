@@ -7,9 +7,19 @@ html, body {
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    color: white;
 }
 
-p {
+img {
+    max-width: 80%;
+    margin: 10%;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
     color: white;
 }
 
@@ -25,19 +35,21 @@ p {
 
 .page {
     min-width: 100%;
-    min-height: ;
 }
 
 .navbar {
     padding: 15px;
 }
 
+.nav-item {
+    padding: 0 10px;
+}
 .navbar-brand,
 .nav-link {
     transition: all .2s ease-in-out;
     color: #fff;
     height: 70px;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
     text-shadow: gray 0 0 20px;
 }
