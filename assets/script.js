@@ -10,5 +10,5 @@ $('a').click(function(){
 
 window.onload = function() {
     setTimeout(function() {
-        document.getElementById('body').style.display = "";},100);
+        document.getElementById('body').style.display = "";},200);
     }

@@ -1,4 +1,4 @@
-body {
+html, body {
     font-family: Oxygen;
     background-image: url('../images/indexbg.jpeg');
     background-repeat: no-repeat;
@@ -6,7 +6,7 @@ body {
     background-size: cover;
     min-width: 100vw;
     max-width: 100vw;
-    animation: fadeInAnimation ease 2s;
+    animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
